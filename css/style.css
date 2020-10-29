@@ -52,6 +52,12 @@ header .cust:active{
     vertical-align: text-bottom;
     padding: 1% 0 0 2%;
 }
+.modal-cust .cust i{
+    transition: all .5s;
+}
+.modal-cust .cust i:hover{
+    transform: rotate(180deg);
+}
 .is-active{
     left: 25%;
 }
